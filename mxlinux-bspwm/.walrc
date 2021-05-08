@@ -1,4 +1,4 @@
-nohup aplay -q /home/sampad/.config/audio/transition.wav &
+nohup aplay -q /home/sampad/.config/audio/transition.wav > /dev/null 2>&1 &
 
 sleep 1
 neofetch
@@ -10,6 +10,10 @@ sleep 1
 #wal -R
 
 #set theme for WAL by calling polybar scripts
-nohup bash ~/.config/polybar/hack/scripts/pywal.sh Pictures/aperture-vintage-gjyQmldTtU8-unsplash.jpg
-catimg ~/.config/wallpapers/bharat.jpg
-sleep 3
+nohup bash ~/.config/polybar/hack/scripts/pywal.sh Pictures/aperture-vintage-gjyQmldTtU8-unsplash.jpg > /dev/null 2>&1 & 
+
+catimg ~/.config/wallpapers/flag.jpg
+sleep 1 && clear
+
+cmatrix &
+sleep 3 && pkill cmatrix

@@ -1,0 +1,13 @@
+sleep 1
+neofetch
+
+#set polybar
+nohup bash ~/.config/polybar/launch.sh --hack 
+sleep 1
+
+#wal -R
+
+#set theme for WAL by calling polybar scripts
+nohup bash ~/.config/polybar/hack/scripts/pywal.sh Pictures/aperture-vintage-gjyQmldTtU8-unsplash.jpg
+catimg ~/.config/wallpapers/bharat.jpg
+sleep 3

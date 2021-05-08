@@ -1,0 +1,37 @@
+2021/05/07-22:25:58.959 7364 Reusing MANIFEST /home/sampad/.config/microsoft-edge-beta/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/07-22:25:58.959 7364 Recovering log #6
+2021/05/07-22:25:58.968 7364 Reusing old log /home/sampad/.config/microsoft-edge-beta/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000006.log 
+2021/05/07-22:26:03.936 7321 Level-0 table #11: started
+2021/05/07-22:26:03.941 7321 Level-0 table #11: 77113 bytes OK
+2021/05/07-22:26:03.943 7321 Delete type=0 #6
+2021/05/07-22:26:03.943 742e Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/07-22:26:04.126 742f Level-0 table #13: started
+2021/05/07-22:26:04.130 742f Level-0 table #13: 671 bytes OK
+2021/05/07-22:26:04.132 742f Delete type=0 #10
+2021/05/07-22:26:04.132 742f Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 4029 : 0
+2021/05/07-22:26:04.132 742f Compacting 1@0 + 1@1 files
+2021/05/07-22:26:04.140 742f Generated table #14@0: 442 keys, 18269 bytes
+2021/05/07-22:26:04.140 742f Compacted 1@0 + 1@1 files => 18269 bytes
+2021/05/07-22:26:04.141 742f compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/05/07-22:26:04.142 742f Delete type=2 #13
+2021/05/07-22:26:04.142 7321 Manual compaction at level-0 from '\x00\x05\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 4029 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/07-22:26:04.142 7321 Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 4029 : 0
+2021/05/07-22:26:04.142 7321 Compacting 1@1 + 1@2 files
+2021/05/07-22:26:04.144 7321 Generated table #15@1: 177 keys, 17696 bytes
+2021/05/07-22:26:04.144 7321 Compacted 1@1 + 1@2 files => 17696 bytes
+2021/05/07-22:26:04.146 7321 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/07-22:26:04.146 7321 Delete type=2 #14
+2021/05/07-22:26:04.147 7321 Manual compaction at level-1 from '\x00\x05\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 4029 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/07-22:26:04.953 7321 Level-0 table #17: started
+2021/05/07-22:26:04.956 7321 Level-0 table #17: 9533 bytes OK
+2021/05/07-22:26:04.958 7321 Delete type=2 #11
+2021/05/07-22:26:04.958 7321 Delete type=2 #8
+2021/05/07-22:26:04.958 7321 Delete type=0 #12
+2021/05/07-22:26:04.959 742f Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/07-22:26:04.959 7321 Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x02\x02\x01\x07\x00s\x00a\x00p\x00i\x00s\x00i\x00d' @ 4284 : 1
+2021/05/07-22:26:04.959 7321 Compacting 1@1 + 1@2 files
+2021/05/07-22:26:04.961 7321 Generated table #18@1: 215 keys, 18223 bytes
+2021/05/07-22:26:04.961 7321 Compacted 1@1 + 1@2 files => 18223 bytes
+2021/05/07-22:26:04.963 7321 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/07-22:26:04.963 7321 Delete type=2 #17
+2021/05/07-22:26:04.963 7321 Manual compaction at level-1 from '\x00\x0b\x02\x02\x01\x07\x00s\x00a\x00p\x00i\x00s\x00i\x00d' @ 4284 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

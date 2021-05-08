@@ -1,0 +1,14 @@
+2021/05/07-22:27:44.769 742e Reusing MANIFEST /home/sampad/.config/microsoft-edge-beta/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/07-22:27:44.770 742e Recovering log #16
+2021/05/07-22:27:44.771 742e Reusing old log /home/sampad/.config/microsoft-edge-beta/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000016.log 
+2021/05/07-22:27:44.771 742e Delete type=2 #15
+2021/05/07-22:27:47.668 742f Level-0 table #21: started
+2021/05/07-22:27:47.671 742f Level-0 table #21: 35584 bytes OK
+2021/05/07-22:27:47.673 742f Delete type=0 #16
+2021/05/07-22:27:47.673 742f Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/07-22:29:25.721 742f Compacting 1@1 + 1@2 files
+2021/05/07-22:29:25.724 742f Generated table #22@1: 239 keys, 22803 bytes
+2021/05/07-22:29:25.724 742f Compacted 1@1 + 1@2 files => 22803 bytes
+2021/05/07-22:29:25.726 742f compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/07-22:29:25.726 742f Delete type=2 #18
+2021/05/07-22:29:25.726 742f Delete type=2 #21

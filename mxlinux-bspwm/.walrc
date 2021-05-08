@@ -1,3 +1,5 @@
+nohup aplay -q /home/sampad/.config/audio/transition.wav &
+
 sleep 1
 neofetch
 

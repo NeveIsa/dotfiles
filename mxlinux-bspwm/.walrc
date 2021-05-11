@@ -1,3 +1,4 @@
+amixer set Master 25%
 nohup aplay -q /home/sampad/.config/audio/transition.wav > /dev/null 2>&1 &
 
 sleep 1
@@ -17,3 +18,6 @@ sleep 1 && clear
 
 cmatrix &
 sleep 3 && pkill cmatrix
+
+exec nohup alacritty &
+sleep 0.05

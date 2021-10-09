@@ -1,0 +1,7 @@
+
+sampybar
+https://raw.githubusercontent.com/Speyll/dotfiles/master/.local/bin/lemonbar/panel
+
+
+cpu
+https://raw.githubusercontent.com/Speyll/dotfiles/master/.local/bin/lemonbar/panel

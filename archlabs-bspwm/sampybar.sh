@@ -17,11 +17,19 @@ vol (){
 # Battery 
 bat (){
 	var=$(cat /sys/class/power_supply/BAT*/capacity)
-        case $var in
-            [0-9])  out="$c$e $var%";;
-            [1-7]?) out="$a$e $var%";;
-            *)      out="$a$e 100%"
-		esac
+        
+         if [ $(bc <<< "$var < 25") -eq 1 ]
+         then
+         	col="%{F#FF3322}"
+         elif [ $(bc <<< "$var < 75") -eq 1 ] 
+		 then
+         	col="%{F#22FF88}"
+
+         else [ $(bc <<< "$var < 75") -eq 1 ] 
+         	col="%{F#2288FF}"
+         fi
+
+          out="$col[BAT:$var]"
 		echo "$out"
 }
 
@@ -94,7 +102,7 @@ do
 	
 	#echo $TOPPROC
 	#BAR_INPUT="%{l}  $(work) $(tit) %{c}$(pdate) %{r}$(pubip) $(privip) $(mem) [CPU: $DIFF_USAGE%] $(cpu) $TOPPROC [%{F#22FF33}BAT:$(bat)]"
-	BAR_INPUT="%{l}  $(work) $TOPPROC  %{c}$(pdate) %{r}$(pubip) $(privip) $(mem) [CPU: $DIFF_USAGE%] $(cpu) %{F#22FF33} [BAT:$(bat)] %{F%FFFFFF}"
+	BAR_INPUT="%{l}  $(work) $TOPPROC  %{c}$(pdate) %{r}$(pubip) $(privip) $(mem) [CPU: $DIFF_USAGE%] $(cpu) $(bat) %{F#FFFFFF}"
 	echo $BAR_INPUT
 	sleep 1
 
